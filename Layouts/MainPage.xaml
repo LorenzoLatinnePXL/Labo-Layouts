@@ -69,6 +69,7 @@
                Margin="20"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center"/>
-        <Button Text="GridPageButton" Clicked="GridPageButtonClicked"/>
+        <Button Text="Grid Page" Clicked="GridPageButtonClicked"/>
+        <Button Text="Popups Page" Clicked="PopupsPageButtonClicked"/>
     </StackLayout>
 </ContentPage>
