@@ -3,5 +3,72 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Layouts.MainPage"
              Title="Labo - Layouts">
-
+    <StackLayout>
+        <Label Text="Titel" FontSize="Title" 
+               FontAttributes="Bold" 
+               BackgroundColor="LightGray" />
+        <Label Text="1" FontSize="Large" 
+               BackgroundColor="LightSlateGrey"
+               WidthRequest="15" 
+               HorizontalOptions="Start"/>
+        <Label Text="2" FontSize="Large" 
+               BackgroundColor="LightSkyBlue"
+               WidthRequest="15" 
+               HorizontalOptions="End"/>
+        <Label Text="3" FontSize="Large" 
+               BackgroundColor="LightBlue"
+               WidthRequest="15"/>
+        <Label Text="4" FontSize="Large" 
+               BackgroundColor="LightSteelBlue"
+               WidthRequest="100" 
+               HorizontalOptions="Start"/>
+        <Label Text="5" FontSize="Large" 
+               BackgroundColor="LightCyan"
+               WidthRequest="100" 
+               HorizontalOptions="Center" 
+               HorizontalTextAlignment="Center"/>
+        <Label Text="6" FontSize="Large" 
+               BackgroundColor="LightSeaGreen"
+               WidthRequest="100"
+               HorizontalOptions="End"
+               HorizontalTextAlignment="End"/>
+        <Label Text="7" FontSize="Large" 
+               BackgroundColor="LightGreen"
+               WidthRequest="50"
+               HeightRequest="75"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        <Label Text="8" FontSize="Large" 
+               BackgroundColor="LightGoldenrodYellow"
+               WidthRequest="100"
+               HorizontalOptions="Start"
+               HorizontalTextAlignment="End"
+               />
+        <Label Text="9" FontSize="Large" 
+               BackgroundColor="LightYellow"
+               WidthRequest="100"
+               HorizontalOptions="End"
+               HorizontalTextAlignment="Start"/>
+        <Label Text="10" FontSize="Large" 
+               BackgroundColor="LightPink"
+               WidthRequest="50"
+               HeightRequest="75"
+               HorizontalOptions="End"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Margin="10"/>
+        <Label Text="11" FontSize="Large" 
+               BackgroundColor="LightCoral"
+               HeightRequest="100"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        <Label Text="12" FontSize="Large" 
+               BackgroundColor="LightSalmon"
+               HeightRequest="100"
+               Margin="20"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        <Button Text="GridPageButton" Clicked="GridPageButtonClicked"/>
+    </StackLayout>
 </ContentPage>
